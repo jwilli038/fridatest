@@ -3,10 +3,8 @@ import numpy as np
 import pickle
 import json
 from flask import Flask, render_template, request
-import nltk
 from keras.models import load_model
-from nltk.stem import WordNetLemmatizer
-lemmatizer = WordNetLemmatizer()
+
 
 # chat initialization note
 model = load_model("chatbot_model.h5")
@@ -40,6 +38,8 @@ def chatbot_response():
         res = getResponse(ints, intents)
     return res
 
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
 
 # chat functionalities
 def clean_up_sentence(sentence):

@@ -6,7 +6,7 @@ from flask import Flask, render_template, request
 from keras.models import load_model
 
 
-# chat initialization note
+# chat initialization 
 model = load_model("chatbot_model.h5")
 intents = json.loads(open("intents.json").read())
 words = pickle.load(open("words.pkl", "rb"))

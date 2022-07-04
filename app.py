@@ -8,8 +8,6 @@ from keras.models import load_model
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 
-lemmatizer = WordNetLemmatizer()
-
 # chat initialization note
 model = load_model("chatbot_model.h5")
 intents = json.loads(open("intents.json").read())

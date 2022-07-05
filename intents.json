@@ -1,0 +1,103 @@
+{
+    "intents": [{
+            "tag": "greetings",
+            "patterns": ["hi there", "hello", "good morning", "good afternoon", "good evening", "hi"],
+            "responses": ["Hello I'm Frida, I'd be happy to help you", "Good Day, I'm Frida, fully designed to help you in anyway I can!"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["bye", "good bye", "see you later"],
+            "responses": ["It was a pleasure to meet you Amy...goodbye."],
+            "context": [""]
+        },
+        {
+            "tag": "Support",
+            "patterns": ["That did not help", "not helpful","you re dumb","More information", "human", "doctor", "surgeon","help"],
+            "responses": ["I'm sorry I couldn't help you, Amy. We will have a nurse navigator reach out to your shortly"],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "okay","Thank you","thankyou", "That's helpful", "Awesome, thanks", "Thanks for helping me", "wow", "great"],
+            "responses": ["Happy to help!", "Any time!","you're welcome", "My pleasure"],
+            "context": [""]
+        },
+
+
+        {
+            "tag": "cancer",
+            "patterns": ["cancer","carcinoma"],
+            "responses": ["Amy, we would like to put you in touch with a human? There are a few options such as the Nurse Navigators and free national hotlines such as the Susan Koleman foundation (1-877-465-6636)"],
+            "context": [""]
+        },
+         {
+            "tag": "lump",
+            "patterns": ["lump", "mass","bump"],
+            "responses": ["Amy, do not panic, this could be entirely fat or scattered fibroglandular density which are benign. We do recommend that you schedule a mammogram."],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [""],
+            "responses": ["Sorry, I didn't understand you", "Please give me more info", "Not sure I understand that"],
+            "context": [""]
+        },
+        {
+            "tag": "diet",
+            "patterns": ["diet","food","eat","nutrition"],
+            "responses": ["Amy, we recommend that you follow a low fat diet while eating plenty of fruits and vegetables such as https://www.ucsfhealth.org/education/basic-facts-about-breast-health-nutrition-for-breast-cancer-prevention"],
+            "context": [""]
+        }
+        ,{
+            "tag": "surgery",
+            "patterns": ["what's surgery like","I'm nervous about surgery and radiation","I have questions about surgery"],
+            "responses": ["While breast surgery has some risk, millions have undergone surgery and had healthy recoveries. For more questions about surgery or recovery please reach out to a nurse navigator. Feel free to check out this American Cancer Society resource in the mean time https://www.cancer.org/cancer/breast-cancer/treatment/surgery-for-breast-cancer.html"],
+            "context": [""]
+        },
+        {
+            "tag": "Exercise",
+            "patterns": ["work out","exercise","fitness"],
+            "responses": ["Studies show that consistent exercise improve results for patients with breast cancer. In fact there are many groups such as the maple tree alliance which provide support for exercise during chemotherapy https://www.mapletreecanceralliance.org/our-team/. For more questions about surgery or recovery please reach out to a nurse navigator."],
+            "context": [""]
+        },
+        {
+            "tag": "type of surgery",
+            "patterns": ["Should I have a masectomy or lumphectomy"],
+            "responses": ["A lumpectomy, or breast-conserving surgery, is a procedure where only the portion of the breast containing the cancer and a margin of surrounding tissue is removed. A mastectomy is the surgical removal of the entire breast"],
+            "context": [""]
+        },
+        {
+            "tag": "Radiation",
+            "patterns": ["Will radiation hurt", "What is radiation like", "Will I feel sick from radiation"],
+            "responses": ["It is normal to be concerned about radiation, but you won't be radioactive and you won't lose your hair. For some of the short term side effects please check here https://www.komen.org/breast-cancer/treatment/type/radiation-therapy/side-effects/"],
+            "context": [""]
+        },
+        {
+            "tag": "Chemo",
+            "patterns": ["Will I need chemo","Will chemo hurt", "What is chemo like", "Will I feel sick from chemo"],
+            "responses": ["Not all women with breast cancer will need chemo, but there are several situations in which chemo may be recommended. Before and after surgery and for metastatic breast cancer. For a list of common side effects check in here https://www.cancer.org/treatment/treatments-and-side-effects/physical-side-effects.html"],
+            "context": [""]
+        },
+        {
+            "tag": "Self Exam",
+            "patterns": ["Should I conduct a self-exam","Should I do a self check", "How often should I perform a breast exam"],
+            "responses": ["Adult women of all ages are encouraged to perform breast self-exams at least once a month. This can be done in the shower, in front of a mirror, or laying down to check for changes in your breasts."],
+            "context": [""]
+        },
+        {
+            "tag": "Breast Reconstruction",
+            "patterns": ["What is going flat","Should I have breast reconstruction", "What is a flap", "What is n implant"],
+            "responses": ["Going flat is choosing not to have breast reconstruction after a masectomy. Here is a link on different types of breast reconstruction https://www.mskcc.org/news/breast-reconstruction-deciding-between-implant-and-flap-surgery"],
+            "context": [""]
+        },
+        {
+            "tag": "Sex Life",
+            "patterns": ["What will my sex life be like after breast cancer", "sex life"],
+            "responses": ["Does breast cancer affect your sex life?\nThe breast cancer experience slows down your body. It takes longer to do lots of things, including getting interested in and starting and finishing sexual intercourse. Sex may be uncomfortable or even painful if you've been thrown into sudden-onset menopause. No surprise that you tend to have less sex, for now."],
+            "context": [""]
+        }
+
+
+    ]
+}

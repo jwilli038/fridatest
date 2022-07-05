@@ -3,4 +3,4 @@ gunicorn==20.0.4
 keras==2.9.0
 nltk==3.7
 numpy==1.23.0
-tensorflow-cpu==2.5.0
+tensorflow-cpu==2.9.1

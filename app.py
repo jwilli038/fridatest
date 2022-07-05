@@ -1,6 +1,9 @@
 import random 
 import numpy as np
 import nltk
+nltk.download('omw-1.4')
+nltk.download('punkt')
+nltk.download('wordnet')
 import pickle
 import json
 from flask import Flask, render_template, request
